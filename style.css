@@ -35,3 +35,30 @@ body,
 .slide4 {
     background-image: url('assets/img4.jpeg');
 }
+
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide-content span {
+    font-size: 5rem;
+    color: purple;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+#left-arrow {}
+
+#right-arrow {}
