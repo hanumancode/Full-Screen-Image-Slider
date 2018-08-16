@@ -7,4 +7,31 @@ body,
     font-family: sans-serif;
     width: 100%;
     height: 100vh;
+    overflowx: hidden;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide1 {
+    background-image: url('assets/img1.jpeg');
+}
+
+.slide2 {
+    background-image: url('assets/img2.jpeg');
+}
+
+.slide3 {
+    background-image: url('assets/img3.jpeg');
+}
+
+.slide4 {
+    background-image: url('assets/img4.jpeg');
 }
