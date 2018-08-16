@@ -53,12 +53,23 @@ body,
     cursor: pointer;
     position: absolute;
     top: 50%;
-    margin-top: -50px;
+    margin-top: -30px;
     width: 0;
     height: 0;
     border-style: solid;
+    color: transparent;
 }
 
-#left-arrow {}
+#left-arrow {
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent transparent;
+    left: 0;
+    margin-left: 30px;
+}
 
-#right-arrow {}
+#right-arrow {
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent #fff;
+    right: 0;
+    margin-right: 30px;
+}
